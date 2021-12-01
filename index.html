@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ИТЕХ ЛАБА 2</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<style>
+		.example {
+			background: #D65DB1;
+			width: 600px;
+			height: 300px;
+			color: #FFC75F;
+		}
+
+		#unique {
+			width: 400px;
+			height:  300px;
+			background: #FF6F91;
+			font-size: 35px;
+			color:  #fff;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="abs_block">Вот это аобсолютный блок!</div>
+	<div style='background: #845EC2;'>
+		блок c аттрибутом style, но без class и id; style:block;
+	</div>
+	<div class="example">
+		блок без аттрибута style, но с классом "example" стиль которого описывается в блоке  style; style:block;
+	</div>
+	<div id="unique">
+		блок без аттрибута style, но с классом "example"  и id "unique" стили которого описывается в блоке  style; style:block;
+	</div>
+	<div id="container1">
+		<h1>Пример inline-block</h1>
+		<p id="rel_exp">Каждый блок с буквой является inline-block, в каждом из блоков находится параграф позиция которого относительна блока с буквой, что позволяет сместить букву в центр!</p>
+		<div class="second_example"><p>H</p></div>
+		<div class="second_example"><p>e</p></div>
+		<div class="second_example"><p>l</p></div>
+		<div class="second_example"><p>l</p></div>
+		<div class="second_example"><p>o</p></div>
+		<div class="second_example"><p>!</p></div>
+	</div>
+	<div>
+		<h1 class="title">Демонстрация float</h1>
+		<h1 id="float_h">Хочу быть обтекаемым заголовком!</h1>
+		<div>я простой текст для демонстрации обтекания!</div>
+	</div>
+	<div id="task">
+		<div id="contacts"><span>Contacts</span></div>
+		<div id="block">
+			<img src="https://nure.ua/wp-content/themes/nure/images/logo.png?v=2.0">
+			<div id="nure">
+				<h4>Сайт ХНУРЭ</h4>
+				<p>https://nure.ua</p>
+			</div>
+			
+		</div>
+	</div>
+	<div id="blank">
+</body>
+</html>

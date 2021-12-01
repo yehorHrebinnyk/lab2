@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.second_example {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #FFC75F;
+	color: #FF9671;
+	font-size: 30px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	border-radius: 3px;
+}
+
+.second_example p {
+	position: relative;
+	top: 35px;
+}
+
+#container1 {
+	background-color: #F9F871;
+	padding: 30px;
+	text-align: center;
+}
+
+#rel_exp {
+	padding: 10px;
+	font-size: 25px;
+}
+
+#abs_block {
+	position: absolute;
+	width: 250px;
+	height: 300px;
+	background-color: red;
+	border-radius: 5px;
+	top: 200px;
+	left: 500px;
+	color: #fff;
+}
+
+#float_h {
+	float: left;
+}
+
+.title {
+	text-align: center;
+	font-family: helvetica
+}
+
+#blank {
+	height: 5000px;
+}
+
+
+#task {
+	position: fixed;
+	bottom: 20%;
+	margin-left: -232px;
+	width: 256px;
+	transition: margin-left 0.5s ease-out;
+}
+
+#task #contacts{
+	height: 84px;
+	width: 24px;
+	border-radius: 0px 10px 10px 0px;
+	float: right;
+	background-color: #ffcc00;
+}
+
+#task:hover {
+	margin-left: 0px;
+	transition: margin-left 0.5s ease-out;
+}
+
+#task #contacts span {
+	display: block;
+	height: 24px;
+	width: 84px;
+	margin-top: 18px;
+	margin-left: -30px;
+	transform: rotate(-90deg);
+}
+
+#task #block {
+	width: 212px;
+	padding: 10px;
+	height: 64px;
+	background-color: #ffe6ac;
+}
+
+#task img {
+	width: 64px;
+	display: block;
+	margin-right: 10px;
+	float: left;
+	height: 64px;
+	background-color: white;
+}
+
